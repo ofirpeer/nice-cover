@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import Photo from "../Photo/Photo";
 import "./Cover.css";
 
 class Cover extends Component {
@@ -9,6 +10,7 @@ class Cover extends Component {
         style={{ backgroundImage: `url(${this.props.imageUrl})` }}
       >
         <div id="frost-mask" />
+        <Photo imageUrl={this.props.imageUrl} />
       </div>
     );
   }

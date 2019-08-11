@@ -9,7 +9,9 @@ class App extends Component {
     super(props);
     this.state = {
       imageUrl:
-        "https://www.barraques.cat/pngfile/big/14-149464_magnificent-ideas-nice-wallpapers-nature-hd-mother-nice.jpg"
+        //"https://www.barraques.cat/pngfile/big/14-149464_magnificent-ideas-nice-wallpapers-nature-hd-mother-nice.jpg"
+        //"https://pbs.twimg.com/profile_images/725321660484583424/ArQ4fM3k.jpg"
+        "http://bit.ly/2gPLxZ4"
     };
   }
   render() {
