@@ -1,5 +1,5 @@
 {
-  "name": "nice-cover",
+  "name": "nice-cover-demo",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -23,6 +23,7 @@
     "webpack-dev-server": "^3.7.2"
   },
   "dependencies": {
+    "nice-cover": "^1.0.0",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
     "react-hot-loader": "^4.12.10"
